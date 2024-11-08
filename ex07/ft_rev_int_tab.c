@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: rode-lim <rode-lim@student.42lisboa.com    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/11/08 16:55:02 by rode-lim          #+#    #+#             */
+/*   Updated: 2024/11/08 16:56:57 by rode-lim         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
 
 	// Add a int * instead of void to test.
@@ -9,8 +21,7 @@ void	ft_rev_int_tab(int *tab, int size)
 
 	i = 0;
 	j = size - 1;
-
-	while(i < j)
+	while (i < j)
 	{
 		temp = tab[i];
 		tab[i] = tab[j];
